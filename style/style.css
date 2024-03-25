@@ -13,12 +13,12 @@
 }
 
 
-a{
+section a{
     text-decoration: none;
     color: #F7F9FA;
 }
 
-a:hover {    
+section a:hover {    
     color: #727272;    
 }
 
@@ -82,19 +82,26 @@ nav li{
     border: none;
 }
 
-.banner{
-    display: inline-block;
-    position: relative;    
-    max-width: 100%;
-    height: 500px;
-    margin-bottom: 10px;
-    background-size: cover;  
+.navbar-collapse {
+    z-index: 3;
+    background-color: #F7F9FA;
 }
 
-.banner img{    
-    max-width: 100%;
-    z-index: 1;
+.navbar-nav.nav-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
+
+.banner{  
+    position: relative;  
+    height: 600px;
+    margin-bottom: 10px;
+    background-image: url(/img/banner-hero.webp);
+    background-size: cover;
+    background-position: right;        
+}
+
 
 .banner .text {
     position: absolute;
@@ -102,7 +109,7 @@ nav li{
     color: #232323;
     z-index: 2;
     padding-left: 3rem;
-    top: 10rem;    
+    top: 20rem;    
 }
 
 .banner .text h1 {    
@@ -154,7 +161,6 @@ nav li{
 /* Portfolio */
 
 .portfolio {
-    padding-bottom: 5rem;
     background-color: #232323;
     text-align: center;    
 }
@@ -182,6 +188,7 @@ nav li{
 
 #sectionWorks h4 {
     color: #F7F9FA;
+    margin-top: 1rem;
 }
 
 #sectionWorks h4:hover {
@@ -253,19 +260,20 @@ nav li{
     opacity: 50%;
 }
 
+/*FOOTER*/
 
 footer {
-    height: 200px;
-    padding: 5rem;
+    height: 300px;
+    padding-inline: 5rem;
     text-align: center;
-    color: #F7F9FA;
-    background-color: #232323;
+    color: #232323;
 }
 
 footer img{
-    padding-top: 5rem;
+    display: inline-block;   
     max-width: 50px;
 }
+
 
 /*PORTFOLIO*/
 

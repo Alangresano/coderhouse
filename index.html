@@ -57,7 +57,7 @@
 <main>
 
     <section class="banner">        
-        <img src="img/banner-hero.webp" alt="main-banner">        
+                
         <div class="text">
             <p>Hola, soy Alan Angresano</p>
             <h1>Diseñador Gráfico y <br> Diseñador Web</h1>            
@@ -105,7 +105,7 @@
 
 <!-- SOBRE MÍ -->
 
-<section id="about" class="about">
+<section id="about" class="about px-4">
 
     <div class="container">
 
@@ -129,25 +129,28 @@
 
 <!-- PORTFOLIO -->
 
-<section class="portfolio">
+<section class="portfolio py-5">
+    
+        
+    <div id="sectionWorks" class="tarjetas container-fluid">
+        <div class="row justify-content-evenly">
 
-    <div id="sectionWorks" class="tarjetas">
+            <div class="work-1 col-md-3">
+                <img src="img/work-rygo.webp" alt="portada del trabajo con Rygo">            
+                <a href="https://www.behance.net/gallery/97637217/RYGO-Urban-Brand" target="_blank"><h4>Rygo | Urban Brand</h4></a>
+                
+            </div>        
+            <div class="work-2 col-md-3">
+                <img src="img/work-procar.webp" alt="portada del trabajo con procar4000">
+                <a href="https://www.behance.net/gallery/185031039/PROCAR-4000-INFOGRAFIA-Y-PRESENTACION-DE-CATEGORIA" target="_blank"><h4>Procar 4000 | Infografía</h4></a>            
+            </div>
+                
+            <div class="work-3 col-md-3">
+                <img src="img/work-maida.webp" alt="portada del trabajo Maida Macetas">
+                <a href="https://www.behance.net/gallery/98490525/MAIDA-Catalogo-2020" target="_blank"><h4>Maida | Catálogo</h4></a>            
+            </div>
 
-        <div class="work-1">
-            <img src="img/work-rygo.webp" alt="portada del trabajo con Rygo">            
-            <a href="https://www.behance.net/gallery/97637217/RYGO-Urban-Brand" target="_blank"><h4>Rygo | Urban Brand</h4></a>
-            
-        </div>        
-        <div class="work-2">
-            <img src="img/work-procar.webp" alt="portada del trabajo con procar4000">
-            <a href="https://www.behance.net/gallery/185031039/PROCAR-4000-INFOGRAFIA-Y-PRESENTACION-DE-CATEGORIA" target="_blank"><h4>Procar 4000 | Infografía</h4></a>            
         </div>
-            
-        <div class="work-3">
-            <img src="img/work-maida.webp" alt="portada del trabajo Maida Macetas">
-            <a href="https://www.behance.net/gallery/98490525/MAIDA-Catalogo-2020" target="_blank"><h4>Maida | Catálogo</h4></a>            
-        </div>
-
     </div>
     
     <a href="./pages/portfolio.html">Ver más</a>
@@ -160,20 +163,21 @@
 <section class="contact">
 
     <div class="container">
+        <div class="row">
+            <div class="title col-12">
+                <h5>Contactame</h5>            
+            </div>
 
-        <div class="title">
-            <h5>Contactame</h5>            
-        </div>
+            <div class="text col-12">
+                <a href="mailto:alan.angresano@gmail.com" target="_blank"><p>alan.angresano@gmail.com</p></a>
+                <a href="https://wa.me/1167175240" target="_blank"><p>11.6717.5240</p></a>
+            </div>
 
-        <div class="text">
-            <a href="mailto:alan.angresano@gmail.com" target="_blank"><p>alan.angresano@gmail.com</p></a>
-            <a href="https://wa.me/1167175240" target="_blank"><p>11.6717.5240</p></a>
-        </div>
-
-        <div class="redes">
-            <a href="https://www.behance.net/angresanoalan" target="_blank"><img src="img/behance-icon.svg" alt="logo de behance"></a>
-            <a href="https://vimeo.com/alanangresano" target="_blank"><img src="img/vimeo-icon.svg" alt="logo de vimeo"></a>
-        </div>
+            <div class="redes col-12">
+                <a href="https://www.behance.net/angresanoalan" target="_blank"><img src="img/behance-icon.svg" alt="logo de behance"></a>
+                <a href="https://vimeo.com/alanangresano" target="_blank"><img src="img/vimeo-icon.svg" alt="logo de vimeo"></a>
+            </div>
+        </div>      
            
     </div>   
 
@@ -186,8 +190,17 @@
 <!-- FOOTER -->
 
 <footer class="footer"> 
+
+    <ul class="navbar-nav nav-footer pb-5">
+        <li class="nav-item"><a href="index.html">Inicio</a></li>
+        <li class="nav-item"><a href="#about">Sobre mí</a></li>
+        <li class="nav-item"><a href="./pages/portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a href="./pages/service.html">Servicios</a></li>
+        <li class="nav-item"><a href="./pages/blog.html">Blog</a></li>
+        <li class="nav-item"><a href="./pages/contact.html">Contacto</a></li>                
+    </ul>
     
-    <div class="copy">
+    <div class="copy py-4">
         <p>Diseñado por Alan Angresano | 2024 | Todos los derechos reservados.</p>
     </div>
 
