@@ -56,25 +56,29 @@
 
 <!-- CONTACTO -->
 
-    <section class="contact">
+    <section id="formContact" class="contact">
+        <div class="container-fluid form px-5">
 
-        <div class="container">
-
-            <div class="title">
+            <div class="title mb-5">
                 <h1>Contacto</h1>            
             </div>
 
-            <div class="text">
-                <a href="mailto:alan.angresano@gmail.com" target="_blank"><p>alan.angresano@gmail.com</p></a>
-                <a href="https://wa.me/1167175240" target="_blank"><p>11.6717.5240</p></a>
-            </div>
+            <form class="form" action="">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Tu email</label>
+                    <input type="email" class="mail-area form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
 
-            <div class="redes">
-                <a href="https://www.behance.net/angresanoalan" target="_blank"><img src="../img/behance-icon.svg" alt="logo de behance"></a>
-                <a href="https://vimeo.com/alanangresano" target="_blank"><img src="../img/vimeo-icon.svg" alt="logo de vimeo"></a>
-            </div>
-            
-        </div>  
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Haceme tu consulta acá"></textarea>
+                </div>
+
+                <button type="submit" class="boton mt-3" value="enviar">Enviar</button>
+
+            </form>            
+
+        </div>       
         
     </section>
 
@@ -87,12 +91,12 @@
 <footer class="footer"> 
     
     <ul class="navbar-nav nav-footer pb-5">
-        <li class="nav-item"><a href="index.html">Inicio</a></li>
-        <li class="nav-item"><a href="#about">Sobre mí</a></li>
-        <li class="nav-item"><a href="./pages/portfolio.html">Portfolio</a></li>
-        <li class="nav-item"><a href="./pages/service.html">Servicios</a></li>
-        <li class="nav-item"><a href="./pages/blog.html">Blog</a></li>
-        <li class="nav-item"><a href="./pages/contact.html">Contacto</a></li>                
+        <li class="nav-item"><a href="/index.html">Inicio</a></li>
+        <li class="nav-item"><a href="/index.html#about">Sobre mí</a></li>
+        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a href="service.html">Servicios</a></li>
+        <li class="nav-item"><a href="blog.html">Blog</a></li>
+        <li class="nav-item"><a href="contact.html">Contacto</a></li>                
     </ul>
 
     <div class="copy py-4">

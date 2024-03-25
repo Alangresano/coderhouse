@@ -23,12 +23,28 @@ section a:hover {
 }
 
 
+.boton {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+    display: block;
+    background-color: #F7F9FA;
+    color: #232323;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+}
+
+.boton:hover {
+    background-color: #232323;
+    color: #F7F9FA;
+}
+
 /* Header y Nav */
 
 header{
     position: relative;
     width: 100%;;  
-    background-color: #F7F9FA;   
+    background-color: #F7F9FA;  
 }
 
 
@@ -228,11 +244,24 @@ nav li{
 /* Contacto */
 
 .contact {
-    padding-top: 10rem;       
+    padding-block: 10rem; 
     color: #232323;
     height: 500px;
     text-align: center;
     background-color: #ff6633;
+}
+
+#formContact {
+    height: auto;
+    text-align: start;
+}
+
+#formContact h1 {
+    color: #F7F9FA;
+}
+
+#formContact .mail-area {
+    width: fit-content;
 }
 
 .container{
