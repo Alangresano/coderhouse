@@ -174,7 +174,7 @@ nav li{
     display: inline-block;
     width: 30%;
     height: auto;
-    margin: 1rem;    
+    margin: 0;    
     color: #F7F9FA;
     overflow: hidden;
 }
@@ -342,17 +342,16 @@ footer img{
     display: inline-block;
     position: relative;
     width: 100%;
-    z-index: 3;
-    margin-bottom: 3rem;    
+    height: auto;
+    z-index: 3;    
 }
 
 .tema-1,.tema-2,.tema-3,.tema-4,.tema-5,.tema-6 {
     display: inline-block;
-    width: 28%;
-    height: 200px;    
+    width: 28%;    
     padding: 2rem;
+    margin-bottom: 2rem;
     color: #232323;
-    overflow: hidden;
 }
 
 .temas a{
