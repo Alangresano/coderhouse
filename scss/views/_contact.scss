@@ -1,0 +1,55 @@
+/*PÁG y Secciónes CONTACTO*/
+
+
+.contact {
+    display: flex;
+    padding-block: 10rem;
+    justify-content: center;
+    align-items: center; 
+    color: #232323;
+    height: auto;
+    text-align: center;
+    background-color: $color-primary;
+    
+
+    h1 {
+        color: $color-light;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+               
+        
+        .title {
+            padding-bottom: 2rem;
+        }
+    
+        .text {
+            padding-bottom: 2rem;
+        }
+
+        .form {
+            .mail-area {
+                width: 50vw;
+            }
+
+            .form-control {
+                width: 50vw;
+            }
+        }
+    }    
+    
+}
+
+/*PÁG CONTACTO únicamente*/
+.container.form {
+    text-align: start; 
+}
+
+    
+
+
+

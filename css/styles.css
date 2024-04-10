@@ -1,0 +1,351 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Encode Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "boxicons", sans-serif;
+  src: url(../fonts/boxicons.ttf);
+}
+section a {
+  text-decoration: none;
+  color: #F7F9FA;
+}
+section a:hover {
+  color: #c4c1c1;
+}
+
+.boton {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 600;
+  display: block;
+  background-color: #F7F9FA;
+  color: #232323;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+}
+.boton:hover {
+  background-color: #232323;
+  color: #F7F9FA;
+}
+
+.container {
+  display: inline-block;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+.container .title {
+  padding-bottom: 2rem;
+}
+.container .title h5 {
+  font-size: larger;
+}
+.container .text {
+  padding-bottom: 2rem;
+}
+
+/*Header*/
+header {
+  position: relative;
+  width: 100%;
+  background-color: #F7F9FA;
+}
+
+nav a img {
+  width: 50px;
+}
+nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-item a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #232323;
+  line-height: 4rem;
+  letter-spacing: 0.1rem;
+  margin-inline: 1rem;
+}
+.nav-item a:hover {
+  color: #ff6633;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1rem;
+}
+
+.nav-link.active {
+  color: #c4c1c1;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #c4c1c1 !important;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar-collapse {
+  z-index: 3;
+  background-color: #F7F9FA;
+}
+
+.navbar-nav.nav-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.banner {
+  position: relative;
+  height: 600px;
+  margin-bottom: 10px;
+  background-image: url(/img/banner-hero.webp);
+  background-size: cover;
+  background-position: right;
+}
+.banner .text {
+  position: absolute;
+  font-size: x-large;
+  color: #232323;
+  z-index: 2;
+  padding-left: 3rem;
+  top: 20rem;
+}
+.banner .text h1 {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  color: #F7F9FA;
+}
+.banner .text p {
+  background-color: #ff6633;
+  color: #F7F9FA;
+  padding: 0.3rem;
+}
+
+/*About me*/
+.about {
+  color: #232323;
+  height: 400px;
+  text-align: center;
+}
+.about .redes {
+  display: inline;
+}
+.about .redes img {
+  width: 5%;
+}
+.about .redes img:hover {
+  opacity: 50%;
+}
+
+#sectionCards .card {
+  bottom: 5rem;
+  background-color: #232323;
+  color: #c4c1c1;
+  box-sizing: none;
+}
+#sectionCards .card-subtitle {
+  margin-bottom: 1rem;
+  color: #ff6633;
+}
+#sectionCards .card-body a {
+  text-decoration: none;
+  color: #F7F9FA;
+}
+#sectionCards .card-body a:hover {
+  text-decoration: none;
+  color: #ff6633;
+}
+#sectionCards .card-body h3 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.portfolio {
+  background-color: #232323;
+  text-align: center;
+}
+.portfolio a:hover {
+  color: #ff6633;
+}
+.portfolio h4 {
+  color: #F7F9FA;
+  margin-top: 1rem;
+}
+.portfolio h4:hover {
+  color: #ff6633;
+}
+.portfolio .tarjetas img {
+  width: 100%;
+}
+.portfolio .tarjetas .work-1, .portfolio .tarjetas .work-2, .portfolio .tarjetas .work-3 {
+  height: auto;
+  margin: 0;
+  color: #F7F9FA;
+  overflow: hidden;
+}
+
+/*PÁG PORTFOLIO*/
+.portfolio-title {
+  display: block;
+  color: #232323;
+  height: 300px;
+  text-align: center;
+}
+
+/*PÁG SERVICIOS*/
+.service-title {
+  padding-top: 5rem;
+  color: #232323;
+  background-color: #ff6633;
+  height: 500px;
+  text-align: center;
+}
+.service-title p {
+  color: #F7F9FA;
+}
+
+/*PÁG SERVICIOS Contraste con fondo naranja*/
+.sub-titulo.service h2 {
+  color: #F7F9FA;
+}
+
+#contactService {
+  margin-bottom: 5rem;
+  background-color: #F7F9FA;
+}
+#contactService a {
+  color: #232323;
+}
+#contactService a:hover {
+  color: #ff6633;
+}
+
+/*PÁG y Secciónes CONTACTO*/
+.contact {
+  display: flex;
+  padding-block: 10rem;
+  justify-content: center;
+  align-items: center;
+  color: #232323;
+  height: auto;
+  text-align: center;
+  background-color: #ff6633;
+}
+.contact h1 {
+  color: #F7F9FA;
+}
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+}
+.contact .container .title {
+  padding-bottom: 2rem;
+}
+.contact .container .text {
+  padding-bottom: 2rem;
+}
+.contact .container .form .mail-area {
+  width: 50vw;
+}
+.contact .container .form .form-control {
+  width: 50vw;
+}
+
+/*PÁG CONTACTO únicamente*/
+.container.form {
+  text-align: start;
+}
+
+/*PÁG BLOG*/
+.titulo {
+  display: block;
+  text-align: center;
+  color: #232323;
+  padding-top: 5rem;
+}
+
+.sub-titulo {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.sub-titulo h2 {
+  font-family: "boxicons", sans-serif;
+  font-weight: 100;
+  font-size: larger;
+  color: #c4c1c1;
+}
+
+.temas {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+}
+.temas a {
+  display: block;
+  margin-top: 1rem;
+  color: #c4c1c1;
+}
+.temas a:hover {
+  color: #ff6633;
+}
+.temas .tema-1, .temas .tema-2, .temas .tema-3, .temas .tema-4, .temas .tema-5, .temas .tema-6 {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  color: #232323;
+}
+
+.tarjetas-blog h3 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.tarjetas-blog h4 {
+  margin-bottom: 1rem;
+  color: #ff6633;
+  z-index: 2;
+}
+
+.redes {
+  display: inline;
+}
+.redes img {
+  width: 5%;
+}
+.redes img:hover {
+  opacity: 50%;
+}
+
+/*Footer*/
+footer {
+  height: 300px;
+  padding-inline: 5rem;
+  text-align: center;
+  color: #232323;
+}
+footer img {
+  display: inline-block;
+  max-width: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */

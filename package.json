@@ -1,0 +1,19 @@
+{
+  "name": "preentrega3-angresano",
+  "version": "1.0.0",
+  "description": "3ra preentrega de mi proyecto web de Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alangresano/coderhouse.git"
+  },
+  "author": "Alan Angresano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alangresano/coderhouse/issues"
+  },
+  "homepage": "https://github.com/Alangresano/coderhouse#readme"
+}
