@@ -1,12 +1,12 @@
 #sectionCards {
 
     .card {
+        @include flex-all-start;
         animation-name: appearbottom;
         animation-duration: 2s;
         animation-delay: 0s;
         bottom: 5rem;
-        background-color: $color-secondary;
-        color: $color-tertiary;
+        @include card-style;
         box-sizing: none;
     }
 

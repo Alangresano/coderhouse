@@ -167,6 +167,9 @@ nav ul li {
 }
 
 #sectionCards .card {
+  display: flex;
+  justify-content: start;
+  align-items: start;
   animation-name: appearbottom;
   animation-duration: 2s;
   animation-delay: 0s;
@@ -265,11 +268,11 @@ nav ul li {
 /*PÁG y Secciónes CONTACTO*/
 .contact {
   display: flex;
-  padding-block: 10rem;
   justify-content: center;
   align-items: center;
-  height: auto;
   text-align: center;
+  padding-block: 10rem;
+  height: auto;
   background-color: #ff6633;
   color: #232323;
 }

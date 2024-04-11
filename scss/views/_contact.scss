@@ -2,12 +2,9 @@
 
 
 .contact {
-    display: flex;
-    padding-block: 10rem;
-    justify-content: center;
-    align-items: center;    
+    @include flex-all-center;
+    padding-block: 10rem;      
     height: auto;
-    text-align: center;
     background-color: $color-primary;
     color: $color-secondary;
     

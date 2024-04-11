@@ -1,2 +1,18 @@
+@mixin flex-all-start{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
 
+@mixin flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin card-style{
+    background-color: $color-secondary;
+    color: $color-tertiary;
+}
  
