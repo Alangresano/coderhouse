@@ -22,7 +22,9 @@
 
 
 .temas {
-    
+    animation-name: appeartop;
+    animation-duration: 2s;
+    animation-delay: 0s;  
     position: relative;
     width: 100%;
     height: auto;
@@ -40,7 +42,7 @@
     }
 
     .tema-1,.tema-2,.tema-3,.tema-4,.tema-5,.tema-6 {
-           
+         
         padding: 2rem;
         margin-bottom: 2rem;
         color: $color-secondary;

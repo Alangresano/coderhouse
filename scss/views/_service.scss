@@ -25,6 +25,7 @@
     
     a {
         color: $color-secondary;
+        transition: $transition-link;
 
         &:hover {
             color: $color-primary;

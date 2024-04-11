@@ -1,6 +1,9 @@
 #sectionCards {
 
     .card {
+        animation-name: appearbottom;
+        animation-duration: 2s;
+        animation-delay: 0s;
         bottom: 5rem;
         background-color: $color-secondary;
         color: $color-tertiary;
@@ -17,11 +20,13 @@
 
         a {
             text-decoration: none;
-            color: $color-light;  
+            color: $color-light;
+            
             
             &:hover {
                 text-decoration: none;
-                color: $color-primary;   
+                color: $color-primary;
+                transition: $transition-link;   
             }
         }
 
@@ -37,10 +42,12 @@
 }
 
 .portfolio {
+   
     background-color: $color-secondary;
     text-align: center; 
     
-    a:hover{    
+    a:hover{
+        transition: $transition-link;    
         color: $color-primary;
     }
 
@@ -53,13 +60,17 @@
         }
     }
 
-    .tarjetas {
+    .tarjetas {        
+        animation-name: appear;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        bottom: 5rem;
 
         img {
             width: 100%;
         }
 
-        .work-1,.work-2,.work-3 {            
+        .work-1,.work-2,.work-3 { 
             height: auto;
             margin: 0;    
             color: $color-light;
