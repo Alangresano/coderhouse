@@ -18,6 +18,10 @@ section a:hover {
   color: #c4c1c1;
 }
 
+h1, h3 {
+  font-family: "boxicons", sans-serif;
+}
+
 .boton {
   font-family: "boxicons", sans-serif;
   font-weight: 600;
